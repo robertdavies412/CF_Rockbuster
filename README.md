@@ -6,3 +6,11 @@ The dataset comprises of information on the following dimensions:
 - Film inventory
 - Customers
 - Payment
+## Skills
+SQL skills demonstrated on the project include:
+- Database querying
+- Filtering data
+- Summarizing and cleaning data
+- Joining tables of data
+- Performing subqueries
+- Using Common Table Expressions

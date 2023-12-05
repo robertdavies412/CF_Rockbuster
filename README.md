@@ -17,6 +17,6 @@ SQL skills demonstrated on the project include:
 - Performing subqueries
 - Using Common Table Expressions
 ## Resources
-Rockbuster database ERD (snowflake schema): ![Rockbuster Stealth ERD](https://github.com/robertdavies412/CF_Rockbuster/assets/152107027/13fdac6f-4a2e-4aba-83f5-8bdec1b7225c)
+Rockbuster database ERD (snowflake schema) created using DbVisualizer: ![Rockbuster Stealth ERD](https://github.com/robertdavies412/CF_Rockbuster/assets/152107027/13fdac6f-4a2e-4aba-83f5-8bdec1b7225c)
 
 Final presentation to Rockbuster business managers: [Rockbuster Stealth final presentation.pdf](https://github.com/robertdavies412/CF_Rockbuster/files/13553726/Rockbuster.Stealth.final.presentation.pdf)

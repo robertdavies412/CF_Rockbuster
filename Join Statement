@@ -1,11 +1,16 @@
-Here is a SQL query using Joins to identify the top 10 countries with the most Rockbuster customers and their respective customer counts:
+Here is a SQL query using Joins to identify details of the top 10 Rockbuster customers by ranked by revenue:
 
-SELECT 	   country.country,
-           COUNT(customer.customer_id) AS total_customers
-FROM   	   customer
-INNER JOIN address ON customer.address_id = address.address_id
-INNER JOIN city ON address.city_id = city.city_id
-INNER JOIN country ON city.country_id = country.country_id
-GROUP BY   country
-ORDER BY   COUNT(customer_id) DESC
+SELECT     customer.customer_id,
+           customer.first_name,
+           customer.last_name,							
+           country.country,
+           city.city,
+           SUM(payment.amount) AS total_amount_paid					
+FROM       payment							
+INNER JOIN customer ON payment.customer_id = customer.customer_id							
+INNER JOIN address ON customer.address_id = address.address_id							
+INNER JOIN city ON address.city_id = city.city_id							
+INNER JOIN country ON city.country_ID = country.country_id							
+GROUP BY   customer.customer_id, country.country, city.city					
+ORDER BY   total_amount_paid DESC
 LIMIT 10;

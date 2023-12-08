@@ -1,4 +1,4 @@
-Here is a SQL query using Joins to identify details of the top 10 Rockbuster customers by ranked by revenue:
+Here is a SQL query using joins to identify details of the top 10 Rockbuster customers by ranked by revenue:
 
 SELECT     customer.customer_id,
            customer.first_name,
